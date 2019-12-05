@@ -14,13 +14,14 @@
       library(ggplot2)
       
       
-      # If you are using real data, escape/avoid this section
-      
-      
+      # For real data, use your phyloseq object in place of ps
       # loading sample data from phyloseq
       data("GlobalPatterns")
       ps <- GlobalPatterns
       ps
+
+      ### extracting sample data from the phyloseq object
+
       # extract sample data 
       sample_df <- data.frame(sample_data(ps),
                               check.rows = T)
