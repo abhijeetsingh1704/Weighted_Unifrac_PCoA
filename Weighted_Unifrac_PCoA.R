@@ -218,7 +218,7 @@
       
       
       # saving plot as image
-      tiff("pcoa_ggplot.tif", width = 8, height = 6, units = "in", res = 250)
+      tiff("pcoa_WeightedUnifrac.tif", width = 8, height = 6, units = "in", res = 250)
       my_plot
       dev.off()
       
